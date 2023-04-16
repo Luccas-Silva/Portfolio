@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+    font-family: 'Fira Code', monospace;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #171717;
+    color: #ABB2BF;
+}
+
+#header {
+    height: 10rem;
+    width: 100%;
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #171717;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #C778DD;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#logo i {
+    font-size: 2.5rem;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+#menu {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+#menu a {
+    display: block;
+    padding: 1rem;
+}
+
+a {
+    color: #ABB2BF;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 0.2rem solid transparent;
+}
+
+#menu a:hover {
+    color: #C778DD;
+    font-weight: bold;
+    border-bottom: 0.2rem solid;
+}
+
+.container{
+    height: 75vh;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.title{
+    display: flex;
+    padding: 10rem 5rem 0rem 5rem;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.title #line {
+    height: 1%;
+    width: 100%;
+    margin-left: 1rem;
+    border: 0.1rem solid #C778DD;  
+}
+
+#home {
+    height: 90vh;
+    text-align: center;
+}
+
+
+#home img {
+    height: 45rem;
+    width: 45rem;
+}
+
+#home h1 {
+    color: #C778DD;
+    font-size: 4.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#home h2 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#home #info-contact {
+    margin: 3rem 5rem 0rem 5rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#home a:hover {
+    color: #C778DD;
+    font-weight: bold;
+}
+
+#home i {
+    font-size: 4rem;
+}
+
+#projects{
+    height: 150vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prjc {
+    padding: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+    border: 0.2rem solid #ABB2BF; 
+}
+
+.prjc img {
+    height: 35rem;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10%;
+    
+}
+
+.prjc p {
+    padding: 1rem 0rem;
+}
+
+.prjc-text h3 {
+    border-top: 0.2rem solid #ABB2BF;
+    padding-top: 1rem;
+    color: #FFFFFF;
+}
+
+.prjc-text p {
+    padding-bottom: 2rem;
+}
+
+.prjc-text a {
+    padding: .5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 0.2rem solid #C778DD;
+}
+
+.prjc-text a:hover {
+    font-weight: bold;
+    color: #171717;
+    background: #C778DD;
+}
+
+
+#about img {
+    height: 30rem;
+    width: 30rem;
+    transform: scaleX(-1);
+}
+
+#about p {
+    margin: 1rem;
+}
+
+#about #info-contact {
+    margin: 5rem 7rem 0rem 7rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#info {
+    width: 55%;
+}
+
+#about a:hover {
+    color: #C778DD;
+    font-weight: bold;
+}
+
+#about i {
+    font-size: 5rem;
+}
+
+
+#skills {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#skills .languages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+}
+
+#skills .languages i {
+    font-size: 10rem;
+}
+
+#skills .languages P {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 500;  
+}
+
+.languages button {
+    background: none;
+    cursor: pointer;
+    border: none;
+    color: #ABB2BF;
+    
+}
+
+#java button :hover {
+    color: #ea2d2e;
+}
+#spring button :hover {
+   color: #5fb832; 
+}
+
+#mysql button :hover{
+    color: #005c83;
+}
+
+#html button :hover {
+    color: #e54d26;
+}
+#css button :hover {
+    color: #3d8fc6;
+}
+#js button :hover {
+    color: #f0db4f;
+}
+#react button :hover {
+    color: #61dafb;
+}
+
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    border-top: 0.15rem solid;  
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    padding: 2px;
+  }
+
+::-webkit-scrollbar-thumb{
+    background: #C778DD;
+}
+
+@media (max-height: 800px){
+    #projects {
+        height: 100vh; 
+    }
+
+    .prjc img {
+        display: none;
+    }
+}
+
+@media (max-width: 900px){
+    #projects {
+        height: 200vh; 
+    }
+}
+
+@media (max-width: 800px){
+    #menu {
+        display: block;
+        background: #171717;
+        position: absolute;
+        width: 35%;
+        top: 10rem;
+        right: 0;
+        height: 0;
+        transition: .7s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 10rem);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+    #menu a {
+        padding: 1rem 0;
+        margin: 2rem 2.5rem;
+        border-bottom: 0.2rem solid;
+    }
+    
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 3rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        color: #C778DD;
+    }
+
+    #home img {
+        height: 30rem;
+        width: 30rem;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    #about #img-contacts {
+        padding-top: 10rem;
+    }
+
+    #about #info-contact {
+        margin: 2.5rem 7rem 2.5rem 7rem;
+    }
+
+    #about #info {
+        width: 75%;
+    }
+
+    #skills{
+        height: 100vh; 
+    }
+
+}
+
+@media (max-width: 600px){
+    #home img {
+        display: none;
+     }
+
+    #projects {
+        height: 100vh; 
+    }
+
+    .prjc img {
+        display: none;
+    }
+
+    #about {
+        height: 100vh;
+    }
+
+    #about img {
+        height: 25rem;
+        width: 25rem;
+    }
+
+    #about #info {
+        width: 100%;
+    }
+
+    #skills{
+        height: 150vh; 
+    }
+
+    #skills .languages {
+        padding: 2.5rem;
+    }
+
+    #skills .languages i {
+        font-size: 7rem;
+    }
+
+}
