@@ -145,14 +145,6 @@ a {
     border: 0.2rem solid #ABB2BF; 
 }
 
-.prjc img {
-    height: 35rem;
-    width: 100%;
-    padding: 1.5rem;
-    border-radius: 10%;
-    
-}
-
 .prjc p {
     padding: 1rem 0rem;
 }
@@ -251,10 +243,6 @@ a {
    color: #5fb832; 
 }
 
-#mysql button :hover{
-    color: #005c83;
-}
-
 #html button :hover {
     color: #e54d26;
 }
@@ -292,10 +280,6 @@ footer{
 @media (max-height: 800px){
     #projects {
         height: 100vh; 
-    }
-
-    .prjc img {
-        display: none;
     }
 }
 
@@ -378,10 +362,6 @@ footer{
 
     #projects {
         height: 100vh; 
-    }
-
-    .prjc img {
-        display: none;
     }
 
     #about {
