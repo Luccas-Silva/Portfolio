@@ -10,6 +10,10 @@
     font-family: 'Fira Code', monospace;
 }
 
+html, body{
+    min-height: 100vh;
+}
+
 body {
     font-size: 1.6rem;
     background: #171717;
