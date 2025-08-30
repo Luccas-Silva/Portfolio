@@ -10,14 +10,14 @@
     font-family: 'Fira Code', monospace;
 }
 
-html, body{
+html, body {
     min-height: 100vh;
 }
 
 body {
     font-size: 1.6rem;
-    background: #171717;
-    color: #ABB2BF;
+    background: #111111;
+    color: #EAE6E5;
 }
 
 #header {
@@ -27,7 +27,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #171717;
+    background: #111111;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -36,7 +36,7 @@ body {
 #logo {
     font-size: 2rem;
     font-weight: bold;
-    color: #C778DD;
+    color: #F162F8;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -62,19 +62,19 @@ body {
 }
 
 a {
-    color: #ABB2BF;
+    color: #EAE6E5;
     text-decoration: none;
     font-weight: bold;
     border-bottom: 0.2rem solid transparent;
 }
 
 #menu a:hover {
-    color: #C778DD;
+    color: #F162F8;
     font-weight: bold;
     border-bottom: 0.2rem solid;
 }
 
-.container{
+.container {
     height: 75vh;
     padding: 2.5rem;
     display: flex;
@@ -82,18 +82,18 @@ a {
     align-items:center;
 }
 
-.title{
+.title {
     display: flex;
     padding: 10rem 5rem 0rem 5rem;
     align-items: center;
-    color: #FFFFFF;
+    color: #EAE6E5;
 }
 
 .title #line {
     height: 1%;
     width: 100%;
     margin-left: 1rem;
-    border: 0.1rem solid #C778DD;  
+    border: 0.1rem solid #F162F8;  
 }
 
 #home {
@@ -108,13 +108,13 @@ a {
 }
 
 #home h1 {
-    color: #C778DD;
+    color: #F162F8;
     font-size: 4.5rem;
     padding-bottom: 0.5rem;
 }
 
 #home h2 {
-    color: #FFFFFF;
+    color: #EAE6E5;
     font-size: 2.5rem;
     padding-bottom: 0.5rem;
 }
@@ -127,7 +127,7 @@ a {
 }
 
 #home a:hover {
-    color: #C778DD;
+    color: #F162F8;
     font-weight: bold;
 }
 
@@ -146,7 +146,7 @@ a {
     padding: 2.5rem;
     margin-bottom: 2.5rem;
     font-weight: 500;
-    border: 0.2rem solid #ABB2BF; 
+    border: 0.2rem solid #EAE6E5; 
 }
 
 .prjc p {
@@ -154,9 +154,9 @@ a {
 }
 
 .prjc-text h3 {
-    border-top: 0.2rem solid #ABB2BF;
+    border-top: 0.2rem solid #EAE6E5;
     padding-top: 1rem;
-    color: #FFFFFF;
+    color: #EAE6E5;
 }
 
 .prjc-text p {
@@ -165,15 +165,15 @@ a {
 
 .prjc-text a {
     padding: .5rem;
-    color: #FFFFFF;
+    color: #EAE6E5;
     font-weight: bold;
-    border: 0.2rem solid #C778DD;
+    border: 0.2rem solid #F162F8;
 }
 
 .prjc-text a:hover {
     font-weight: bold;
-    color: #171717;
-    background: #C778DD;
+    color: #111111;
+    background: #F162F8;
 }
 
 
@@ -199,7 +199,7 @@ a {
 }
 
 #about a:hover {
-    color: #C778DD;
+    color: #F162F8;
     font-weight: bold;
 }
 
@@ -236,7 +236,7 @@ a {
     background: none;
     cursor: pointer;
     border: none;
-    color: #ABB2BF;
+    color: #EAE6E5;
     
 }
 
@@ -278,7 +278,7 @@ footer{
   }
 
 ::-webkit-scrollbar-thumb{
-    background: #C778DD;
+    background: #F162F8;
 }
 
 @media (max-height: 800px){
@@ -296,7 +296,7 @@ footer{
 @media (max-width: 800px){
     #menu {
         display: block;
-        background: #171717;
+        background: #111111;
         position: absolute;
         width: 35%;
         top: 10rem;
@@ -327,7 +327,7 @@ footer{
         border: none;
         background: none;
         cursor: pointer;
-        color: #C778DD;
+        color: #F162F8;
     }
 
     #home img {
